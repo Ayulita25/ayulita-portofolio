@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-content h1 {
+    color: #007bff;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header-content hr {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #007bff;
+}
+
+.header-content p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+h2::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #007bff;
+    display: block;
+    margin-top: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #f0f2f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    flex: 1 1 calc(50% - 20px);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.hobbies {
+    list-style: none;
+    padding-left: 0;
+}
+
+.hobbies li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.hobbies li:last-child {
+    border-bottom: none;
+}
